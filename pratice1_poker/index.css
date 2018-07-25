@@ -1,0 +1,92 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.singoPoker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.singoPoker li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 120px;
+    width: 80px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.singoPoker li h2 {
+    position: relative;
+    top: -18px;
+    right: 0px;
+}
+
+.singoPoker li h3 {
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+
+.ser0,
+.ser1,
+.ser2,
+.ser3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.pokers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.pokers li {
+    height: 200px;
+    width: 140px;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.open {
+    display: block;
+}
+
+.open li {
+    float: left;
+}
