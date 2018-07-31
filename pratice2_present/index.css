@@ -1,0 +1,72 @@
+.present {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px;
+}
+
+.cup {
+  position: relative;
+  width: 110px;
+  height: 15px;
+  background-color: black;
+}
+
+.complete {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.cupbody {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.vribbon {
+  position: absolute;
+  width: 20px;
+  height: 110px;
+  background-color: red;
+}
+
+.hribbon {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: red;
+}
+
+.loding {
+  position: relative;
+  bottom: 20px;
+  margin: 0 auto;
+  width: 280px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: #ffff;
+  overflow: hidden;
+}
+
+.loding .bar {
+  background-color: red;
+  width: 0%;
+  height: 100%;
+}
+
+.lodingText {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

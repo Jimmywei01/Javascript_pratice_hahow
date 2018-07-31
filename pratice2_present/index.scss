@@ -1,0 +1,66 @@
+ // 長寬
+ @mixin size($w, $h:$w) {
+     width: $w;
+     height: $h;
+ }
+
+ ; // 左右置中
+ @mixin flexcenter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ ;
+ .present {
+     position: relative;
+     @include flexcenter;
+     flex-direction: column;
+     margin: 50px;
+ }
+
+ .cup {
+     position: relative;
+     @include size(110px, 15px);
+     background-color: black;
+ }
+
+ .complete {
+     transform: rotate(-10deg);
+ }
+
+ .cupbody {
+     @include size(100px);
+     background-color: black;
+ }
+
+ .vribbon {
+     position: absolute;
+     @include size(20px, 110px);
+     background-color: red;
+ }
+
+ .hribbon {
+     position: absolute;
+     @include size(100px, 20px);
+     background-color: red;
+ }
+
+ .loding {
+     position: relative;
+     bottom: 20px;
+     margin: 0 auto;
+     @include size(280px, 30px);
+     border: 1px solid red;
+     border-radius: 5px;
+     background-color: #ffff;
+     overflow: hidden;
+     .bar {
+         background-color: red;
+         @include size(0%, 100%);
+     }
+ }
+
+ .lodingText {
+     text-align: center;
+ }
