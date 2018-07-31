@@ -1,92 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .singoPoker {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .singoPoker li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 120px;
-    width: 80px;
-    margin: 10px;
-    border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  width: 80px;
+  margin: 10px;
+  border: 1px solid black;
 }
 
 .singoPoker li h2 {
-    position: relative;
-    top: -18px;
-    right: 0px;
+  position: relative;
+  top: -18px;
+  right: 0px;
 }
 
 .singoPoker li h3 {
-    position: relative;
-    top: -15px;
-    left: 30px;
+  position: relative;
+  top: -15px;
+  left: 30px;
+}
+
+.ser1 h2,
+.ser1 h3,
+.ser3 h2,
+.ser3 h3 {
+  color: red;
 }
 
 .ser0,
 .ser1,
 .ser2,
 .ser3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
 }
 
 .pokers {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .pokers li {
-    height: 200px;
-    width: 140px;
-    border: 1px solid black;
-    margin: 10px;
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  height: 200px;
+  width: 140px;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .open {
-    display: block;
+  display: block;
 }
 
 .open li {
-    float: left;
+  float: left;
 }
+
+.s2,
+.s4 {
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */

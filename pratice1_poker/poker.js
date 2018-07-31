@@ -65,3 +65,4 @@ $(".s3").click(function () {
 $(".s4").click(function () {
     $(".ser3").toggleClass("open");
 })
+
