@@ -5,3 +5,5 @@
 ### 說明： 
 ### 以 lodingBar 加載到 100% 禮物盒打開
 
+### 練習:
+### setInterval , setTimeout
